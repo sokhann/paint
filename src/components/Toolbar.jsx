@@ -36,8 +36,8 @@ export const Toolbar = () => {
                 <input title={'Fill color'} onChange={e => changeColor(e)} style={{marginLeft:10}} type="color"/>
             </div>
             <div className={style.side}>
-                <button className={style.button}><UndoIcon/></button>
-                <button className={style.button}><RedoIcon/></button>
+                <button className={style.button} onClick={() => canvasState.undo()}><UndoIcon/></button>
+                <button className={style.button} onClick={() => canvasState.redo()}><RedoIcon/></button>
                 <button className={style.button}><SaveIcon/></button>
             </div>
         </div>
