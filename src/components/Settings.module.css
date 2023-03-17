@@ -1,0 +1,17 @@
+.settings {
+    height: 56px;
+    padding: 0 24px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 56px;
+    right: 0;
+    left: 0;
+    border-bottom: 1px solid gray;
+}
+
+.settings input {
+    margin-left: 16px;
+    border-radius: 4px;
+}
